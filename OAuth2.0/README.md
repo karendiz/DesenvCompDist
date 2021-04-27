@@ -18,10 +18,10 @@ not login
 ![naologado](https://github.com/karendiz/DesenvCompDist/blob/main/OAuth2.0/naologado1.jpg)
 
 config social account 
-![configaccount]()
+![configaccount](https://github.com/karendiz/DesenvCompDist/blob/main/OAuth2.0/configaccount.jpg)
 
 login page
-![telalogin]()
+![loginpage](https://github.com/karendiz/DesenvCompDist/blob/main/OAuth2.0/loginpage.jpg)
 
 loging sucess with gmail
-![logadogmail]()
+![logadogmail](https://github.com/karendiz/DesenvCompDist/blob/main/OAuth2.0/logadogmail.jpg)
