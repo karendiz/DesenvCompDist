@@ -1,0 +1,48 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/util.css' %}">
+
+    <title>Hello, world!</title>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">OAuth 2.0</a>
+    </nav>
+</head>
+<body>
+<div class="container text-dark mt-5">
+    <div class="row justify-content-md-center">
+        <div class="col-md-6.5 p-5">
+            <h2>This is My Google Login Project</h2>
+            {% if user.is_authenticated %}
+            <br>
+            <h2>Welcome, Let's Work {{ user.email }} !</h2>
+            {% else %}
+            <h2>Welcome! Log with your account</h2>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
