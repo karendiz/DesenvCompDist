@@ -14,3 +14,14 @@ criadas no cloud, assim por fim criei uma aplicação web para poder realizar a 
 5- E Para melhor entendimento seguem imagens da tela do projeto:
 
 
+not login
+![naologado](https://github.com/karendiz/DesenvCompDist/blob/main/OAuth2.0/naologado1.jpg)
+
+config social account 
+![configaccount]()
+
+login page
+![telalogin]()
+
+loging sucess with gmail
+![logadogmail]()
