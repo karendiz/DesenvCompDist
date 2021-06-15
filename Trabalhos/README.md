@@ -8,6 +8,10 @@ Padrões de Projeto:
 
 [DITRIBUIDO_15_KAREN_1201900494.pdf](https://github.com/karendiz/DesenvCompDist/blob/main/Trabalhos/DISTRIBUIDO_15_KAREN_1201900494.pdf)
 
+Microsserviços e Kubernetes:
+
+[DITRIBUIDO_16_KAREN_1201900494.pdf](https://github.com/karendiz/DesenvCompDist/blob/main/Trabalhos/DISTRIBUIDO_16_KAREN_1201900494.pdf)
+
 API de autorização OAUTH:
 
 [DISTRIBUIDO_1_KAREN_1201900494.pdf](https://github.com/karendiz/DesenvCompDist/blob/main/Trabalhos/DISTRIBUIDO_1_KAREN_1201900494.pdf)
